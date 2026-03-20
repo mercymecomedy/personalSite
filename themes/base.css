@@ -1,0 +1,203 @@
+:root {
+  --bg: #f2f2f2;
+  --panel-bg: #ffffff;
+  --text: #111111;
+  --muted: #333333;
+  --line: #222222;
+  --accent: #0047ff;
+  --accent-2: #cdd8ff;
+  --button-text: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.15);
+  --status-upcoming: #1f8a42;
+  --status-sold-out: #8a5a00;
+  --status-canceled: #922222;
+  --role-host: #5e2ca5;
+  --role-feature: #005f8a;
+  --role-headliner: #8a0047;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--accent);
+}
+
+.layout {
+  width: min(1100px, 92vw);
+  margin: 1.25rem auto 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.panel {
+  border: 2px solid var(--line);
+  background: var(--panel-bg);
+  box-shadow: 2px 2px 0 var(--shadow);
+  padding: 1rem;
+}
+
+.site-header {
+  width: min(1100px, 92vw);
+  margin: 1.25rem auto 0;
+}
+
+.tagline {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  color: var(--muted);
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+  border: 2px solid var(--line);
+  padding: 0.4rem 0.7rem;
+  color: var(--text);
+  background: var(--accent-2);
+}
+
+.site-nav a.active {
+  background: var(--accent);
+  color: var(--button-text);
+}
+
+.event-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
+  border: 2px solid var(--line);
+  background: var(--panel-bg);
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.08s ease-out;
+}
+
+.event-card:focus,
+.event-card:hover {
+  outline: 2px solid var(--accent);
+  transform: translateY(-2px);
+}
+
+.event-date {
+  font-weight: 700;
+  margin: 0;
+}
+
+.event-location {
+  font-weight: 700;
+  margin-top: 0.2rem;
+}
+
+.event-summary {
+  margin-bottom: 0.8rem;
+}
+
+.event-image-wrap img,
+.event-detail-image,
+.about-profile-image {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border: 2px solid var(--line);
+  display: block;
+}
+
+.event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid var(--line);
+  padding: 0.4rem 0.8rem;
+  background: var(--accent);
+  color: var(--button-text);
+  font-weight: 700;
+}
+
+.text-link {
+  font-weight: 700;
+}
+
+.badge-row {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border: 2px solid var(--line);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.badge-role-host { background: var(--role-host); color: #ffffff; }
+.badge-role-feature { background: var(--role-feature); color: #ffffff; }
+.badge-role-headliner { background: var(--role-headliner); color: #ffffff; }
+.badge-role-default { background: #666666; color: #ffffff; }
+
+.badge-status-upcoming { background: var(--status-upcoming); color: #ffffff; }
+.badge-status-sold-out { background: var(--status-sold-out); color: #ffffff; }
+.badge-status-canceled { background: var(--status-canceled); color: #ffffff; }
+.badge-status-default { background: #666666; color: #ffffff; }
+
+.badge-tag {
+  background: var(--accent);
+  color: var(--button-text);
+}
+
+.badge-tag-featured {
+  background: var(--accent);
+  color: var(--button-text);
+  box-shadow: 0 0 10px rgba(0, 71, 255, 0.35);
+}
+
+.social-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+}
+
+.empty-state {
+  border: 2px dashed var(--line);
+  padding: 0.8rem;
+  font-weight: 700;
+}
+
+@media (min-width: 760px) {
+  .event-card {
+    grid-template-columns: 2fr 1fr;
+  }
+}

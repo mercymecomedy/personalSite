@@ -1,0 +1,34 @@
+:root {
+  --bg: #5a4b85;
+  --panel-bg: #c7c0d8;
+  --text: #100c19;
+  --muted: #2a1f3d;
+  --line: #100c19;
+  --accent: #4b2a87;
+  --accent-2: #dfd8ee;
+  --button-text: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.35);
+}
+
+body {
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+}
+
+.panel,
+.event-card,
+.button,
+.site-nav a {
+  border-top-color: #f2eff8;
+  border-left-color: #f2eff8;
+  border-right-color: #4a3e66;
+  border-bottom-color: #4a3e66;
+  box-shadow: none;
+}
+
+.button:active,
+.site-nav a:active {
+  border-top-color: #4a3e66;
+  border-left-color: #4a3e66;
+  border-right-color: #f2eff8;
+  border-bottom-color: #f2eff8;
+}

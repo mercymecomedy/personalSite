@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "dcu-tdov-2026",
+    "title": "Trans Day of Visibility at Denver Comedy Underground!",
+    "localDate": "2026-03-31",
+    "localTime": "19:30",
+    "timeZone": "America/Denver",
+    "location": "675 22nd St, Denver, CO 80205",
+    "ticketUrl": "https://www.denvercomedyunderground.com/shows/358367",
+    "tags": "showcase",
+    "summary": "Come see your favorite local trans comedians and help support the community!",
+    "description": "Come see your favorite local trans comedians and help support the community! Doors open at 6:30 PM, show starts at 7:30 PM.",
+    "image": "tdov-2026.jpg",
+    "imageAlt": "Flyer for Trans Day of Visibility at Denver Comedy Underground featuring Mercy Hawkins"
+  },
+  {
+    "slug": "Sushi-Hai-Showcase",
+    "title": "Sushi Hai Showcase",
+    "localDate": "2026-04-09",
+    "localTime": "21:00",
+    "timeZone": "America/Phoenix",
+    "location": "3600 W 32nd Ave, Denver, CO 80211",
+    "ticketUrl": "https://www.eventbrite.com/e/the-hai-comedy-show-at-sushi-hai-tickets-1225696885379?msockid=0ef498d2e8d6611c05568d2ce97b600a",
+    "tags": "showcase",
+    "summary": "Mercy performs comedy at Sushi Hai!",
+    "description": "Mercy performs comedy at Sushi Hai!",
+    "image": "sushi-04-2026.jpg",
+    "imageAlt": "Flyer for Sushi Hai Showcase featuring Mercy Hawkins"
+  }, 
+  {
+    "slug": "lavshow1",
+    "title": "Lavender Laughs Festival, opening show!",
+    "localDate": "2026-07-14",
+    "localTime": "19:00",
+    "timeZone": "America/New_York",
+    "location": "212 East 52nd Street, New York, New York 10022",
+    "ticketUrl": "https://www.simpletix.com/e/festival-of-lavender-manhattan-early-show-tickets-260825",
+    "tags": "festival",
+    "summary": "Mercy performs comedy at the first show of the Lavender Laughs Festival!",
+    "description": "Mercy performs comedy at the first show of the Lavender Laughs Festival!",
+    "image":  "lav-laughs.png",
+    "imageAlt": "Flyer for Lavender Laughs Festival, opening show featuring Mercy Hawkins"
+  },
+  {
+    "slug": "lavshow2",
+    "title": "Lavender Laughs Festival, closing show!",
+    "localDate": "2026-07-16",
+    "localTime": "20:30",
+    "timeZone": "America/New_York",
+    "location": "3183 34th St, Astoria, NY 11106",
+    "ticketUrl": "https://www.simpletix.com/e/festival-of-lavender-queens-late-show-tickets-261447",
+    "tags": "festival",
+    "summary": "Mercy performs comedy at the last show of the Lavender Laughs Festival!",
+    "description": "Mercy performs comedy at the last show of the Lavender Laughs Festival!",
+    "image": "lav-laughs.png",
+    "imageAlt": "Flyer for Lavender Laughs Festival, closing show featuring Mercy Hawkins"
+  }
+]

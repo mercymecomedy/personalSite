@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f5efe2" />
+  <circle cx="400" cy="320" r="140" fill="#ffd8b0" />
+  <rect x="250" y="460" width="300" height="320" rx="18" fill="#3b3b6d" />
+  <text x="50%" y="88%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="44" fill="#2b2b2b">Mercy Hawkins</text>
+</svg>

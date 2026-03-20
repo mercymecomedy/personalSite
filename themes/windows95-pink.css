@@ -1,0 +1,34 @@
+:root {
+  --bg: #b86c8f;
+  --panel-bg: #d8becb;
+  --text: #2b1221;
+  --muted: #4a2237;
+  --line: #2b1221;
+  --accent: #8c2d62;
+  --accent-2: #ead7e2;
+  --button-text: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.35);
+}
+
+body {
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+}
+
+.panel,
+.event-card,
+.button,
+.site-nav a {
+  border-top-color: #f8eff4;
+  border-left-color: #f8eff4;
+  border-right-color: #775063;
+  border-bottom-color: #775063;
+  box-shadow: none;
+}
+
+.button:active,
+.site-nav a:active {
+  border-top-color: #775063;
+  border-left-color: #775063;
+  border-right-color: #f8eff4;
+  border-bottom-color: #f8eff4;
+}
